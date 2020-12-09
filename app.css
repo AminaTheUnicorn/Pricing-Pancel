@@ -216,6 +216,14 @@ background-color:#e1f1ff ;
 
 }
 
+.pricing-bttn.is-featured{
+    background-color: #48aaff;
+    color: white;
+}
+.pricing-bttn.is-featured:hover, .pricing-bttn.is-featured:focus{
+    background-color: #42a3f8;
+    color: white;
+}
 @media(min-width: 900px){
     .panel{
         flex-direction: row;
