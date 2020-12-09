@@ -220,5 +220,13 @@ background-color:#e1f1ff ;
     .panel{
         flex-direction: row;
     }
+    .pricing-plan{
+        border-bottom: none;
+        padding: 25px;
+        border-right: 1px solid #e1f1ff;
+    }
+    .pricing-plan:last-child{
+        border: none;
+    }
 }
 
